@@ -1,0 +1,426 @@
+[2024-03-30T10:24:40.205+0000] {processor.py:161} INFO - Started process (PID=50121) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:24:40.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:24:40.207+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:24:40.207+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:24:40.212+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:24:40.350+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:24:40.349+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:hello
+[2024-03-30T10:24:40.366+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:24:40.365+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:hello
+[2024-03-30T10:24:40.377+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:24:40.376+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:hello
+[2024-03-30T10:24:40.377+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:24:40.377+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:24:40.391+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:24:40.391+0000] {dag.py:3069} INFO - Creating ORM DAG for hello
+[2024-03-30T10:24:40.392+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:24:40.392+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:24:40.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.213 seconds
+[2024-03-30T10:25:10.531+0000] {processor.py:161} INFO - Started process (PID=50383) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:25:10.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:25:10.534+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:10.533+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:10.538+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:10.563+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:10.562+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:25:10.578+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:10.578+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:25:10.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.073 seconds
+[2024-03-30T10:25:40.763+0000] {processor.py:161} INFO - Started process (PID=50635) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:25:40.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:25:40.765+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:40.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:40.770+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:40.792+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:40.792+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:25:40.807+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:40.807+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:25:40.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.071 seconds
+[2024-03-30T10:25:44.136+0000] {processor.py:161} INFO - Started process (PID=50665) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:25:44.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:25:44.138+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:44.138+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:44.144+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:44.310+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:44.310+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:25:44.322+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:44.321+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:25:44.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.223 seconds
+[2024-03-30T10:25:51.063+0000] {processor.py:161} INFO - Started process (PID=50740) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:25:51.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:25:51.064+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:51.064+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:51.068+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:25:51.079+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:51.079+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:25:51.091+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:25:51.091+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:25:51.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.052 seconds
+[2024-03-30T10:26:06.718+0000] {processor.py:161} INFO - Started process (PID=50870) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:26:06.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:26:06.720+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:06.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:06.725+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:06.725+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 15, in <module>
+    my_first_task >> my_second_task
+NameError: name 'my_first_task' is not defined
+[2024-03-30T10:26:06.726+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:06.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.055 seconds
+[2024-03-30T10:26:12.624+0000] {processor.py:161} INFO - Started process (PID=50928) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:26:12.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:26:12.626+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:12.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:12.632+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:12.631+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 15, in <module>
+    my_first_task >> my_second_task
+NameError: name 'my_first_task' is not defined
+[2024-03-30T10:26:12.632+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:12.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.038 seconds
+[2024-03-30T10:26:21.557+0000] {processor.py:161} INFO - Started process (PID=51008) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:26:21.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:26:21.558+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:21.558+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:21.562+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:21.562+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 15, in <module>
+    mstart >> my_second_task
+NameError: name 'mstart' is not defined
+[2024-03-30T10:26:21.563+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:21.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.030 seconds
+[2024-03-30T10:26:24.732+0000] {processor.py:161} INFO - Started process (PID=51023) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:26:24.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:26:24.734+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:24.734+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:24.738+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:24.738+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 15, in <module>
+    start >> my_second_task
+NameError: name 'my_second_task' is not defined
+[2024-03-30T10:26:24.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:24.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.032 seconds
+[2024-03-30T10:26:27.976+0000] {processor.py:161} INFO - Started process (PID=51048) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:26:27.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:26:27.980+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:27.980+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:27.994+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:28.238+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:28.238+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:26:28.253+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:28.252+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:26:28.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.313 seconds
+[2024-03-30T10:26:58.453+0000] {processor.py:161} INFO - Started process (PID=51306) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:26:58.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:26:58.455+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:58.455+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:58.459+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:26:58.484+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:58.484+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:26:58.499+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:26:58.499+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:26:58.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.073 seconds
+[2024-03-30T10:27:28.561+0000] {processor.py:161} INFO - Started process (PID=51564) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:27:28.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:27:28.562+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:28.562+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:28.565+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:28.582+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:28.582+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:27:28.593+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:28.592+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:27:28.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.053 seconds
+[2024-03-30T10:27:47.264+0000] {processor.py:161} INFO - Started process (PID=51767) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:27:47.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:27:47.266+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:47.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:47.277+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:47.306+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:47.305+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:27:47.323+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:47.323+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:27:47.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.110 seconds
+[2024-03-30T10:27:48.480+0000] {processor.py:161} INFO - Started process (PID=51787) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:27:48.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:27:48.482+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:48.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:48.487+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:48.531+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:48.530+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:27:48.563+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:48.563+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:27:48.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.119 seconds
+[2024-03-30T10:27:55.836+0000] {processor.py:161} INFO - Started process (PID=51812) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:27:55.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:27:55.838+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:55.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:55.841+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:55.857+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:55.857+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T10:27:55.867+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:55.867+0000] {dag.py:3834} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-03-30T10:27:55.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.055 seconds
+[2024-03-30T10:27:58.096+0000] {processor.py:161} INFO - Started process (PID=51837) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:27:58.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:27:58.098+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:58.097+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:58.101+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:58.101+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    Bat
+NameError: name 'Bat' is not defined
+[2024-03-30T10:27:58.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:58.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.029 seconds
+[2024-03-30T10:27:59.112+0000] {processor.py:161} INFO - Started process (PID=51842) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:27:59.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:27:59.114+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:59.114+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:59.119+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:27:59.118+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    BashOperator
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:27:59.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:27:59.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.037 seconds
+[2024-03-30T10:28:14.161+0000] {processor.py:161} INFO - Started process (PID=52000) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:28:14.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:28:14.163+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:14.163+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:14.167+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:14.166+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    BashOperator(tas)
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:28:14.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:14.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.033 seconds
+[2024-03-30T10:28:16.174+0000] {processor.py:161} INFO - Started process (PID=52005) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:28:16.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:28:16.176+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:16.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:16.183+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:16.183+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    BashOperator(task_id)
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:28:16.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:16.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.042 seconds
+[2024-03-30T10:28:17.995+0000] {processor.py:161} INFO - Started process (PID=52070) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:28:17.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:28:17.997+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:17.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:18.000+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:18.000+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14
+    BashOperator(task_id=)
+                         ^
+SyntaxError: invalid syntax
+[2024-03-30T10:28:18.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:18.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.038 seconds
+[2024-03-30T10:28:19.102+0000] {processor.py:161} INFO - Started process (PID=52080) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:28:19.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:28:19.103+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:19.103+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:19.107+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:19.107+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    BashOperator(task_id="")
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:28:19.108+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:19.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.035 seconds
+[2024-03-30T10:28:29.563+0000] {processor.py:161} INFO - Started process (PID=52120) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:28:29.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:28:29.565+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:29.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:29.571+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:29.570+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    BashOperator(task_id="echo_hello")
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:28:29.571+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:29.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.037 seconds
+[2024-03-30T10:28:46.559+0000] {processor.py:161} INFO - Started process (PID=52277) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:28:46.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:28:46.561+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:46.560+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:46.566+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:46.565+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_BashOperator(task_id="echo_hello")
+NameError: name 'echo_BashOperator' is not defined
+[2024-03-30T10:28:46.566+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:46.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.036 seconds
+[2024-03-30T10:28:50.358+0000] {processor.py:161} INFO - Started process (PID=52347) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:28:50.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:28:50.360+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:50.360+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:50.365+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:28:50.364+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(task_id="echo_hello")
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:28:50.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:28:50.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.037 seconds
+[2024-03-30T10:29:15.902+0000] {processor.py:161} INFO - Started process (PID=52539) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:29:15.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:29:15.903+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:15.903+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:15.907+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:15.907+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:29:15.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:15.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.030 seconds
+[2024-03-30T10:29:25.772+0000] {processor.py:161} INFO - Started process (PID=52614) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:29:25.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:29:25.774+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:25.774+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:25.780+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:25.779+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:29:25.780+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:25.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.039 seconds
+[2024-03-30T10:29:27.922+0000] {processor.py:161} INFO - Started process (PID=52629) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:29:27.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:29:27.924+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:27.924+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:27.929+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:27.928+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:29:27.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:27.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.041 seconds
+[2024-03-30T10:29:58.488+0000] {processor.py:161} INFO - Started process (PID=52886) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:29:58.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:29:58.490+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:58.490+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:58.494+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:29:58.493+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:29:58.495+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:29:58.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.036 seconds
+[2024-03-30T10:30:23.397+0000] {processor.py:161} INFO - Started process (PID=53133) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:30:23.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:30:23.399+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:23.399+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:23.401+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:23.401+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 16
+    bash_
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-03-30T10:30:23.401+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:23.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.029 seconds
+[2024-03-30T10:30:26.415+0000] {processor.py:161} INFO - Started process (PID=53138) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:30:26.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:30:26.416+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:26.416+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:26.419+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:26.418+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 16
+    bash_command
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-03-30T10:30:26.419+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:26.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.027 seconds
+[2024-03-30T10:30:30.980+0000] {processor.py:161} INFO - Started process (PID=53173) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:30:30.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:30:30.982+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:30.982+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:30.988+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:30.986+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:30:30.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:31.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.039 seconds
+[2024-03-30T10:30:34.381+0000] {processor.py:161} INFO - Started process (PID=53213) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:30:34.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:30:34.383+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:34.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:34.389+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:30:34.388+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:30:34.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:30:34.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.037 seconds
+[2024-03-30T10:31:04.656+0000] {processor.py:161} INFO - Started process (PID=53471) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:31:04.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:31:04.658+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:31:04.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:31:04.662+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:31:04.661+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:31:04.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:31:04.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.043 seconds
+[2024-03-30T10:31:35.161+0000] {processor.py:161} INFO - Started process (PID=53727) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:31:35.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:31:35.163+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:31:35.163+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:31:35.168+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:31:35.167+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:31:35.168+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:31:35.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.039 seconds
+[2024-03-30T10:32:05.454+0000] {processor.py:161} INFO - Started process (PID=53984) to work on /opt/airflow/dags/hello.py
+[2024-03-30T10:32:05.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-03-30T10:32:05.456+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:32:05.455+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-03-30T10:32:05.460+0000] {logging_mixin.py:188} INFO - [2024-03-30T10:32:05.459+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 14, in <module>
+    echo_hello = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2024-03-30T10:32:05.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-03-30T10:32:05.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.035 seconds

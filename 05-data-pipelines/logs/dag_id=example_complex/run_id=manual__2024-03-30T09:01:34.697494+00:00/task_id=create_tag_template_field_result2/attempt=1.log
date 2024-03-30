@@ -1,0 +1,17 @@
+[2024-03-30T09:02:01.569+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_complex.create_tag_template_field_result2 manual__2024-03-30T09:01:34.697494+00:00 [queued]>
+[2024-03-30T09:02:01.598+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_complex.create_tag_template_field_result2 manual__2024-03-30T09:01:34.697494+00:00 [queued]>
+[2024-03-30T09:02:01.598+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-30T09:02:01.645+0000] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): create_tag_template_field_result2> on 2024-03-30 09:01:34.697494+00:00
+[2024-03-30T09:02:01.671+0000] {standard_task_runner.py:60} INFO - Started process 8854 to run task
+[2024-03-30T09:02:01.682+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'example_complex', 'create_tag_template_field_result2', 'manual__2024-03-30T09:01:34.697494+00:00', '--job-id', '25', '--raw', '--subdir', '/home/***/.local/lib/python3.8/site-packages/***/example_dags/example_complex.py', '--cfg-path', '/tmp/tmpup6pg1__']
+[2024-03-30T09:02:01.706+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask create_tag_template_field_result2
+[2024-03-30T09:02:01.972+0000] {task_command.py:423} INFO - Running <TaskInstance: example_complex.create_tag_template_field_result2 manual__2024-03-30T09:01:34.697494+00:00 [running]> on host 67d0ea97ba1b
+[2024-03-30T09:02:02.200+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_complex' AIRFLOW_CTX_TASK_ID='create_tag_template_field_result2' AIRFLOW_CTX_EXECUTION_DATE='2024-03-30T09:01:34.697494+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-30T09:01:34.697494+00:00'
+[2024-03-30T09:02:02.203+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-30T09:02:02.204+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo create_tag_template_field_result']
+[2024-03-30T09:02:02.305+0000] {subprocess.py:86} INFO - Output:
+[2024-03-30T09:02:02.326+0000] {subprocess.py:93} INFO - create_tag_template_field_result
+[2024-03-30T09:02:02.335+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-30T09:02:02.498+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=example_complex, task_id=create_tag_template_field_result2, execution_date=20240330T090134, start_date=20240330T090201, end_date=20240330T090202
+[2024-03-30T09:02:02.795+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-30T09:02:02.902+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
