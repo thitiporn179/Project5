@@ -4639,3 +4639,37 @@ Traceback (most recent call last):
 IndentationError: unexpected indent
 [2024-04-12T13:26:12.748+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
 [2024-04-12T13:26:12.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.033 seconds
+[2024-04-12T13:26:43.484+0000] {processor.py:161} INFO - Started process (PID=73255) to work on /opt/airflow/dags/hello.py
+[2024-04-12T13:26:43.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-04-12T13:26:43.486+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:26:43.486+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-04-12T13:26:43.489+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:26:43.488+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 29
+    say_hello = PythonOperator(
+    ^
+IndentationError: unexpected indent
+[2024-04-12T13:26:43.489+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-04-12T13:26:43.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.032 seconds
+[2024-04-12T13:27:13.709+0000] {processor.py:161} INFO - Started process (PID=73518) to work on /opt/airflow/dags/hello.py
+[2024-04-12T13:27:13.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-04-12T13:27:13.711+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:27:13.711+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-04-12T13:27:13.714+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:27:13.714+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hello.py", line 29
+    say_hello = PythonOperator(
+    ^
+IndentationError: unexpected indent
+[2024-04-12T13:27:13.715+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/hello.py
+[2024-04-12T13:27:13.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.034 seconds

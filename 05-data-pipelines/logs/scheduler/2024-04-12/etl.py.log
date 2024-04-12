@@ -9403,3 +9403,31 @@ Traceback (most recent call last):
 NameError: name '_create_tables' is not defined
 [2024-04-12T13:26:15.767+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
 [2024-04-12T13:26:15.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.037 seconds
+[2024-04-12T13:26:46.506+0000] {processor.py:161} INFO - Started process (PID=73325) to work on /opt/airflow/dags/etl.py
+[2024-04-12T13:26:46.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-04-12T13:26:46.508+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:26:46.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-04-12T13:26:46.516+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:26:46.515+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 152, in <module>
+    python_callable=_create_tables,
+NameError: name '_create_tables' is not defined
+[2024-04-12T13:26:46.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-04-12T13:26:46.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.040 seconds
+[2024-04-12T13:27:16.823+0000] {processor.py:161} INFO - Started process (PID=73588) to work on /opt/airflow/dags/etl.py
+[2024-04-12T13:27:16.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-04-12T13:27:16.825+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:27:16.825+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-04-12T13:27:16.832+0000] {logging_mixin.py:188} INFO - [2024-04-12T13:27:16.831+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 152, in <module>
+    python_callable=_create_tables,
+NameError: name '_create_tables' is not defined
+[2024-04-12T13:27:16.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-04-12T13:27:16.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.036 seconds
