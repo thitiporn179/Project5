@@ -1,6 +1,16 @@
+import logging
+
 from airflow import DAG
+from airflow.operators.bash import BashOperator
 from airflow.operators.empty import EmptyOperator
+from airflow.operators.pythom import PythonOperator
 from airflow.utils import timezone
+
+
+
+def _say_hello():
+    logging.debug("This is DEBUG log")
+    logging.info("hello")
 
 with DAG(
     "hello",
@@ -13,9 +23,15 @@ with DAG(
 
     echo_hello = BashOperator(
         task_id="echo_hello",
-        bash_command="",
+        bash_command="echo 'hello'",
         ) 
+
+        say_hello = PythonOperator(
+            task_id="say_hello",
+            python_callable=_say_hello,
+        )
 
     end = EmptyOperator(task_id="end")
 
-    start >> end
+    start >> echo_hello >> end
+    start >> say_hello >> end
